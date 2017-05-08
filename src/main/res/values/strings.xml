@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Reversi</string>
+    <string name="white_turn">White Turn</string>
+    <string name="black_turn">Black Turn</string>
+    <string name="available_moves">Available moves - </string>
+    <string name="no_moves_available">No moves available!</string>
+    <string name="current_score">Score - </string>
+
+    <string name="html">
+        <![CDATA[
+
+        <string name="html">
+
+        </br>
+        <h2>History</h2>
+        <p>
+        The game <b>Reversi</b> was invented in 1883 by either of two Englishmen (each claiming the other
+        a fraud), Lewis Waterman or John W. Mollett (or perhaps earlier by someone else entirely),
+         and gained considerable popularity in England at the end of the nineteenth century.The
+         game\'s first reliable mention is in the August twenty-first 1886 edition of The Saturday
+         Review. Later mention includes an 1895 article in The New York Times: "Reversi is something
+          like Go Bang, and is played with 64 pieces.\" In 1893, the well-known German games
+          publisher Ravensburger started producing the game as one of its first titles.
+          Two 18th-century continental European books dealing with a game that may or may not
+          be Reversi are mentioned on page fourteen of the Spring 1989 Othello Quarterly, and there
+          has been speculation, so far without documentation, that the game has even more ancient origins.
+        </p></br>
+
+        <h2>Rules</h2>
+
+        <p>Each of the disks\' two sides corresponds to one player; they are referred to here as
+        <b>light</b> and <b>dark</b> after the sides of Othello pieces, but any counters with distinctive
+        faces are suitable. The game may for example be played with a chessboard and Scrabble pieces,
+        with one player letters and the other backs.</p>
+
+        <p>
+        The historical version of Reversi starts with an empty board, and the first two moves
+        by each player are in the four central squares of the board. The players place their disks
+         alternately with their color facing up and no captures are made. A player may choose to
+          not play both pieces on the same diagonal, different from the standard Othello opening.
+          It is also possible to play variants of Reversi and Othello wherein the second player\'s
+          second move may or must flip one of the opposite-colored disks (as variants closest to
+          the normal games).
+          </p>
+
+          <p>
+          For the specific game of <b>Othello</b> (as technically differing from the historical Reversi),
+          the rules state that <b>the game begins with four disks placed in a square in the middle of
+          the grid, two facing white side up, two pieces with the dark side up, with same-colored
+          disks on a diagonal with each other</b>. Convention has initial board position such that the
+          disks with dark side up are to the north-east and south-west (from both players\'
+          perspectives), though this is only marginally meaningful to play (where opening
+          memorization is an issue, some players may benefit from consistency on this). If
+          the disks with dark side up are to the north-west and south-east, the board may be
+          rotated by 90° clockwise or counterclockwise. <b>The dark player moves first</b>.
+          </p>
+
+          <p>
+          Dark must place a piece with the dark side up on the board, in such a position that there
+          <b>exists at least one straight (horizontal, vertical, or diagonal) occupied line between the
+           new piece and another dark piece, with one or more contiguous light pieces between them</b>.
+          </p>
+
+           <p>
+           After placing the piece, dark turns over (flips, captures) all light pieces lying on a
+           straight line between the new piece and any anchoring dark pieces. All reversed pieces
+           now show the dark side, and dark can use them in later moves—unless light has reversed
+           them back in the meantime. In other words, <b>a valid move is one where at least one piece
+           is reversed</b>.
+           </p>
+
+           <p>
+           Afterwards,  light plays. This player operates under the same rules, with the roles reversed:
+           light lays down a light piece, causing at <b>least a dark piece to flip</b>.
+           </p>
+
+           <p>
+           <b>Players take alternate turns. If one player can not make a valid move, play passes back
+           to the other player. When neither player can move, the game ends. This occurs when the
+           grid has filled up or when neither player can legally place a piece in any of the
+           remaining squares. This means the game may end before the grid is completely filled.</b>
+           This possibility may occur because one player has no pieces remaining on the board in
+           that player\'s color. In over-the-board play this is generally scored as if the board
+           were full (64–0).
+           </p>
+
+           <p>
+           <b>The player with the most pieces on the board at the end of the game wins</b>. An exception
+           to this is that if a clock is employed then if one player defaults on time that player\'s
+           opponent wins regardless of the board configuration, with varying methods to determine
+           the official score where one is required.
+           </p></br>
+           <a href="https://en.wikipedia.org/wiki/Reversi">More Information</a>
+
+
+    </string>
+
+        ]]>
+
+    </string>
+
+</resources>
